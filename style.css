@@ -11,7 +11,7 @@ li {
 }
 
 .header {
-    background-color: #93343d;
+    background-color: #c2404d;
     color: #fff;
     height: 150px;
 }
@@ -22,7 +22,7 @@ li {
     padding: 30px 40px;
 }
 
-.header-list li{
+.header-list li { 
     float: right;
     font-size: 25px;
     padding: 50px 50px 20px 50px;
@@ -52,117 +52,121 @@ li {
     margin-bottom: 50px;
 }
 
+
+
 .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet::before, .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet, [class^=swiper-button-] {
     transition: all 0.3s ease;
-  }
+}
   
-  *, *:before, *:after {
+*, *:before, *:after {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-  }
+}
   
-  .swiper-container {
+.swiper-container {
     width: 100%;
     height: 50vw;
     transition: opacity 0.6s ease;
-  }
-  .swiper-container.swiper-container-coverflow {
+}
+.swiper-container.swiper-container-coverflow {
     padding-top: 2%;
-  }
-  .swiper-container.loading {
+}
+.swiper-container.loading {
     opacity: 0;
     visibility: hidden;
-  }
-  .swiper-container:hover .swiper-button-prev,
-  .swiper-container:hover .swiper-button-next {
+}
+.swiper-container:hover .swiper-button-prev,
+.swiper-container:hover .swiper-button-next {
     transform: translateX(0);
     opacity: 1;
     visibility: visible;
-  }
+}
   
-  .swiper-slide {
+.swiper-slide {
     background-position: center;
     background-size: cover;
-  }
-  .swiper-slide .entity-img {
+}
+.swiper-slide .entity-img {
     display: none;
-  }
-  .swiper-slide .content {
+}
+.swiper-slide .content {
     position: absolute;
     top: 40%;
     left: 0;
     width: 50%;
     padding-left: 5%;
     color: #fff;
-  }
-  .swiper-slide .content .title {
+}
+.swiper-slide .content .title {
     font-size: 2.6em;
     font-weight: bold;
     margin-bottom: 30px;
-  }
-  .swiper-slide .content .caption {
+}
+.swiper-slide .content .caption {
     display: block;
     font-size: 13px;
     line-height: 1.4;
-  }
+}
   
-  [class^=swiper-button-] {
+[class^=swiper-button-] {
     width: 44px;
     opacity: 0;
     visibility: hidden;
-  }
+}
   
-  .swiper-button-prev {
+.swiper-button-prev {
     transform: translateX(50px);
-  }
+}
   
-  .swiper-button-next {
+.swiper-button-next {
     transform: translateX(-50px);
-  }
+}
   
-  .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
+.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
     margin: 0 9px;
     position: relative;
-    width: 12px;
-    height: 12px;
+    width: 17px;
+    height: 17px;
     background-color: #fff;
     opacity: 0.4;
-  }
-  .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet::before {
+}
+.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet::before {
     content: "";
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 18px;
-    height: 18px;
+    width: 25px;
+    height: 25px;
     transform: translate(-50%, -50%);
     border: 0px solid #fff;
     border-radius: 50%;
-  }
-  .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet:hover, .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet.swiper-pagination-bullet-active {
+}
+.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet:hover, .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet.swiper-pagination-bullet-active {
     opacity: 1;
-  }
-  .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet.swiper-pagination-bullet-active::before {
+}
+.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet.swiper-pagination-bullet-active::before {
     border-width: 1px;
-  }
+}
   
-  @media (max-width: 1180px) {
+@media (max-width: 1180px) {
     .swiper-slide .content .title {
       font-size: 25px;
     }
     .swiper-slide .content .caption {
       font-size: 12px;
     }
-  }
-  @media (max-width: 1023px) {
+}
+@media (max-width: 1023px) {
     .swiper-container {
       height: 40vw;
     }
     .swiper-container.swiper-container-coverflow {
       padding-top: 0;
     }
-  }
+}
+
+
 
 .concept-video {
     margin-top: 100px;
@@ -189,21 +193,22 @@ input, textarea {
 .footer {
     background-color: #2f5167;
     color: #fff;
-    height: 180px;
-    
+    height: 230px;
 }
 
 .footer-logo {
-    font-size: 32px;
+    font-size: 40px;
     float: left;
     padding: 20px 20px 20px 20px;
 }
 
 .footer-list {
+    font-size: 20px;
     float: right;
     padding-right: 70px;
 }
 
 .footer-list li  {
+    padding-top: 10px;
     padding-bottom: 10px;
 }

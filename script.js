@@ -1,6 +1,12 @@
 // Params
 var sliderSelector = '.swiper-container',
     options = {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+      delay: 5000,
+      disableOnInteraction: false,
+      },  
       init: false,
       loop: true,
       speed:800,
