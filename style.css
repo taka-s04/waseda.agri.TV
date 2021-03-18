@@ -1,11 +1,11 @@
 body {
-    margin: 0;
+    margin: 0 auto;
 }
 
 .header {
     background-color: #c2404d;
     color: #fff;
-    height: 150px;
+    height: 120px;
 }
 
 .header-logo img {
@@ -15,13 +15,13 @@ body {
 .header-logo {
     float: left;
     font-size: 40px;
-    padding: 30px 40px;
+    padding: 30px 70px;
 }
 
 .header-list li { 
     float: right;
     font-size: 20px;
-    padding: 50px 30px 20px 30px;
+    padding: 40px 30px 20px 30px;
     list-style: none;
 }
 
@@ -40,6 +40,16 @@ body {
     font-size: 50px;
     font-weight: bold;
     padding: 0 80px 0 80px;
+}
+
+.copy-container video {
+    width: 100%;
+    height: 100%;
+}
+
+
+.copy-container img {
+    margin: 0 auto;
 }
 
 .section-title {
@@ -100,7 +110,7 @@ body {
     color: #fff;
 }
 .swiper-slide .content .title {
-    font-size: 2.6em;
+    font-size: 1.8em;
     font-weight: bold;
     margin-bottom: 30px;
     font-family: "游明朝体";
@@ -188,7 +198,7 @@ input, textarea {
 }
 
 .footer {
-    background-color: #2f5167;
+    background-color: #9b3939;
     color: #fff;
     height: 230px;
     margin: 0;

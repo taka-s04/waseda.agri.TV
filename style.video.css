@@ -1,6 +1,3 @@
-html { 
-    font-size: 62.5%; 
-}
 
 body{
   color: #333333;
@@ -54,7 +51,7 @@ img{
 .sectionBlock_inner{
     margin-left: auto;
     margin-right: auto;
-    width: 1260px;
+    width: 1167px;
   }
 
 .campaignArea{
@@ -166,4 +163,20 @@ img{
 
 .columnComp-type03 .columnComp_box{
   width: 33.3333333%;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    width: 100%;
+  }
+  .campaignArea { 
+    margin: o auto;
+  }
+  .headingBlock-styleType02 {
+    margin: o auto;
+  }
+  .columnComp {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
 }
