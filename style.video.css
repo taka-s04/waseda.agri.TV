@@ -63,11 +63,14 @@ img{
 
 
 .campaignArea .columnComp-type02 .columnComp_box{
-    margin-top: 32px;
-    margin-left: 33px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    margin-bottom: 35px;
+    margin-right: 33px;
     width: 245px;
 }
-  
+
 .campaignArea .columnComp-type02 .columnComp_box:nth-child(-n+4){
     margin-top: 0px;
 }
@@ -179,5 +182,4 @@ img{
   h2 .headingBlock-styleType02 {
     font-size: 20px;
   }
-  
 }
