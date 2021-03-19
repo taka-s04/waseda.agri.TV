@@ -79,7 +79,7 @@ img{
   
   
 .campaignArea .headingBlock-styleType02{
-    font-size: 3.0rem;
+    font-size: 30px;
     font-weight: 600;
     margin-bottom: 49px;
 }
@@ -173,4 +173,11 @@ img{
   .sectionBlock_inner{
     width: 1167px;
   }
+}
+
+@media (max-width: 768px) {
+  h2 .headingBlock-styleType02 {
+    font-size: 20px;
+  }
+  
 }
