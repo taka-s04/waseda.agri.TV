@@ -53,82 +53,83 @@ img{
 .sectionBlock_inner{
     margin-left: auto;
     margin-right: auto;
-    width: 1167px;
-  }
+    width: 100%;
+}
 
 .campaignArea{
     background-color: #f5efef;
     padding: 49px 0 57px 0;
-  }
+}
 
 
-  .campaignArea .columnComp-type02 .columnComp_box{
+.campaignArea .columnComp-type02 .columnComp_box{
     margin-top: 32px;
     margin-left: 33px;
     width: 245px;
-  }
+}
   
-  .campaignArea .columnComp-type02 .columnComp_box:nth-child(-n+4){
+.campaignArea .columnComp-type02 .columnComp_box:nth-child(-n+4){
     margin-top: 0px;
-  }
+}
   
-  .campaignArea .columnComp_box:first-child,
-  .campaignArea .columnComp_box:nth-of-type(5n){
+.campaignArea .columnComp_box:first-child,
+.campaignArea .columnComp_box:nth-of-type(5n){
     margin-left: 0px;
-  }
+}
   
   
-  .campaignArea .headingBlock-styleType02{
-    display: inline-block;
+.campaignArea .headingBlock-styleType02{
     font-size: 3.0rem;
     font-weight: 600;
     margin-bottom: 49px;
+}
+
+.headingBlock-styleType02 {
     text-align: center;
-    width: 100%;
-  }
+}
   
-  .campaignListBox_item img{
+.campaignListBox_item img{
     margin-bottom: 10px;
-  }
+}
   
-  .campaignListBox_item a:hover img{
+.campaignListBox_item a:hover img{
     opacity: 0.7;
-  }
+}
   
-  .campaignListBox_typeIcon{
+.campaignListBox_typeIcon{
     display: inline-block;
     color: #ffffff;
     font-size: 1.1rem;
     line-height: 1;
     margin-bottom: 14px;
     padding: 6px 22px;
-  }
+}
   
-  .campaignListBox_typeIcon.campaignListBox_typeIcon-nationwide{
+.campaignListBox_typeIcon.campaignListBox_typeIcon-nationwide{
     background-color: #607bc3;
-  }
+}
   
-  .campaignListBox_typeIcon.campaignListBox_typeIcon-plan{
+.campaignListBox_typeIcon.campaignListBox_typeIcon-plan{
     background-color: #f86c91;
-  }
+}
   
-  .campaignListBox_typeIcon.campaignListBox_typeIcon-area{
+.campaignListBox_typeIcon.campaignListBox_typeIcon-area{
     background-color: #607bc3;
-  }
+}
   
-  .campaignListBox_desc{
+.campaignListBox_desc{
     line-height: 1.7;
     font-size: medium;
     color: initial;
-  }
+}
   
-  .campaignArea .boxLink{
+.campaignArea .boxLink{
     display: block;
     margin: 46px auto 0 auto;
     width: 280px;
-  }
+}
   
-  .columnComp{
+.columnComp{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -167,19 +168,9 @@ img{
   width: 33.3333333%;
 }
 
-@media (max-width: 500px) {
-  body {
-    width: 100%;
-  }
-  .campaignArea { 
-    margin: o auto;
-  }
-  .headingBlock-styleType02 {
-    margin: o auto;
-    text-align: center;
-  }
-  .columnComp {
-    flex-direction: column;
-    justify-content: flex-start;
+
+@media (min-width: 1200px) {
+  .sectionBlock_inner{
+    width: 1167px;
   }
 }

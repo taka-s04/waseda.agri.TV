@@ -47,6 +47,9 @@ body {
     color: #ffffff;
 }
 
+
+/*ここからメイン*/
+
 .main {
     position: relative;
 }
@@ -82,13 +85,15 @@ body {
     position: absolute;
     top: 17%;
     left: 60%;
+    right: 6%;
     font-size: 60px;
     color: #ffffff;
 }
 .text-image h4 {
     position: absolute;
     top: 66%;
-    left: 60%;
+    left: 50%;
+    right: 20%;
     font-size: 30px;
     color: #ffffff;
 }
@@ -97,7 +102,7 @@ body {
     top: 25%;
     left: 50%;
     font-size: 30px;
-    width: 790px;
+    
     color: #ffffff;
 }
 .decorator {
@@ -112,7 +117,6 @@ body {
     display: inline-block;
     font-size: 3.0rem;
     font-weight: 600;
-    margin-bottom: 49px;
     width: 100%;
 }
 
@@ -249,6 +253,9 @@ input, textarea {
     color: #889eab;
 }
 
+
+/*ここからフッター*/
+
 .footer {
     background-color: #8D0726;
     color: #fff;
@@ -324,4 +331,32 @@ input, textarea {
     position: relative;
     top: 60px;
     right: 266px;
+}
+
+@media (max-width: 768px) {
+    .header-logo {
+        font-size: 20px;
+    }
+    .header-list li {
+        font-size: 7px;
+    }
+    .copy-container h1 {
+        font-size: 50px;
+    }
+    .copy-container h2 {
+        font-size: 20px;
+    }
+    .text-image h3 {
+        font-size: 20px;
+    }
+    .text-image h4 {
+        font-size: 10px;
+    }
+    .text-image p {
+        font-size: 10px;
+    }
+    .section-title {
+        font-size: 20px;
+    }
+    
 }
