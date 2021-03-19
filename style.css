@@ -499,8 +499,8 @@ input, textarea {
     }
     .copyright {
         font-size: 5px;
-        top: 300px;
-        right: 10px;
+        top: 320px;
+        left: 50px;
         width: 250px;
     }
     .footer-list1 {
