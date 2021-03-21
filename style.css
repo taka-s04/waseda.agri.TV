@@ -239,6 +239,9 @@ body {
     text-align: center;
 }
 
+.contact-form p {
+    font-size: 15px;
+}
 input, textarea {
     width: 400px;
     margin-top: 10px;
