@@ -36,7 +36,7 @@
       <img src="backgroundimg.png" id="section1"/>
       <h3 class="decorator">早稲田アグリTVとは</h3>
       <h4 class="decorator">山形県の大蔵村の【四ヶ村の棚田】を主な研究対象地域にしており、ここは「日本の棚田百選」に選ばれている。</h3>
-      <p class="decorator">早稲田大学 社会科学部 農村デザイン研究ゼミが制作した「農村地域の魅力を伝えるYouTubeチャンネル」。特に日本の中山間地域での農業や暮らしに着目し、棚田と共に生きる人々の生活を多くの人に知ってもらいたいという想いで活動中。</p>
+      <p class="decorator">早稲田大学 社会科学部 農村デザイン研究ゼミが制作した「農村地域の魅力を伝えるYouTubeチャンネル」。<br>特に日本の中山間地域での農業や暮らしに着目し、棚田と共に生きる人々の生活を多くの人に知ってもらいたいという想いで活動中。</p>
 
     </div>
   　<div class="contents" id="section2">
@@ -223,13 +223,13 @@
       <p>お名前（必須）</p>
       <input type="text" name="name">
       <P>メールアドレス（必須）</P>
-      <input type="email" name="mail">
+      <input type="text" name="mail">
       <p>電話番号（必須）</p>
-      <input type="tel" name="tel">
+      <input type="text" name="tel">
       <p>お問い合わせ内容（必須）</p>
-      <textarea></textarea>
+      <textarea name="comment" cols="20" rows="5"></textarea>
       <P>＊必須事項は必ずご記入ください</P>
-      <input class="contact-submit" type="submit" value="送信">
+      <input class="contact-submit" type="submit" value="送信" onClick="return check();">
     </div>
   </div>
 
