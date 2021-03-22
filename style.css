@@ -64,7 +64,7 @@ body {
 .copy-container h2 {
     font-size: 50px;
     font-weight: bold;
-    padding: 0 80px 0 80px;
+    padding: 0 80px 60px 80px;
 }
 
 .copy-container video {
@@ -235,7 +235,7 @@ body {
 
 .contact-form {
     padding-top: 100px;
-    padding-bottom: 300px;
+    padding-bottom: 250px;
     text-align: center;
 }
 
@@ -248,11 +248,11 @@ input, textarea {
     margin-bottom: 30px;
     padding: 20px;
     font-size: 18px;
-    border: 1px solid #dee7ec;
+    border: 1px solid #d1d9de;
 }
 
 .contact-submit {
-    background-color: #dee7ec;
+    background-color: #d1d9de;
     color: #889eab;
 }
 
@@ -356,7 +356,7 @@ input, textarea {
     .text-image p {
         font-size: 20px;
     }
-
+    
     .footer-logo img {
         width: 50px;
         height: 50px;
@@ -390,27 +390,33 @@ input, textarea {
 
 
 
-@media (min-width: 426px) and(max-width: 768px) {
+@media (min-width: 426px) and (max-width: 768px) {
     .header-logo {
-        font-size: 20px;
+        font-size: 25px;
     }
     .header-list li {
-        font-size: 9px;
+        font-size: 12px;
     }
     .copy-container h1 {
-        font-size: 50px;
+        font-size: 45px;
+        padding-top: 40px;
     }
     .copy-container h2 {
         font-size: 20px;
+        padding-bottom: 40px;
     }
     .text-image h3 {
         font-size: 20px;
     }
     .text-image h4 {
-        font-size: 15px;
+        font-size: 12px;
     }
     .text-image p {
-        font-size: 15px;
+        font-size: 12px;
+    }
+
+    .contact-form {
+        padding-bottom: 150px;
     }
     .section-title {
         font-size: 25px;
@@ -422,7 +428,7 @@ input, textarea {
         bottom: 6px;
     }
     .footer-logo {
-        font-size: 15px;
+        font-size: 18px;
         display: initial;
     }
     .copyright {
@@ -456,10 +462,14 @@ input, textarea {
         font-size: 12px;
     }
     .copy-container h1 {
-        font-size: 50px;
+        font-size: 40px;
+        text-align: center;
+        padding: 20px 40px 40px 40px;
     }
     .copy-container h2 {
         font-size: 20px;
+        text-align: center;
+        padding: 0 40px 40px 40px;
     }
     .text-image h3 {
         font-size: 15px;
@@ -471,7 +481,11 @@ input, textarea {
         right: 2%;
     }
     .text-image p {
-        font-size: 7px;
+        font-size: 6px;
+    }
+
+    .contact-form {
+        padding-bottom: 100px;
     }
     .section-title {
         font-size: 20px;
