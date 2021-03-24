@@ -23,6 +23,15 @@ body {
     color: #ffffff;
 }
 
+.header-logo a {
+    color: #ffffff;
+}
+
+.header-logo a:hover {
+    opacity: 0.7;
+    color: #ffffff;
+}
+
 .header-list ul { 
     display: flex;
     align-items: center;
@@ -281,6 +290,15 @@ input, textarea {
     height: 120px;
 }
 
+.footer-logo a {
+    color: #ffffff;
+}
+
+.footer-logo a:hover {
+    opacity: 0.7;
+    color: #ffffff;
+}
+
 .footer-list1 {
     position: relative;
     right: 100px;
@@ -335,6 +353,15 @@ input, textarea {
     right: 266px;
 }
 
+@media (min-width: 1025px) {
+    .footer-logo a {
+        position: relative;
+        bottom: 50px;
+    }
+    .footer-logo img {
+        bottom: 17px;
+    }
+}
 
 @media (min-width: 769px) and (max-width: 1024px) {
     .header-list li {
